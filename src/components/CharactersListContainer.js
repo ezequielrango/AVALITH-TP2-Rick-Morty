@@ -24,7 +24,15 @@ const CharactersListContainer = () => {
     }, [id]); // lo ejecutamos con useEffect
     return(
         <div className='characterListContainer'>
-            <CharacterList characters={characters} />
+            {characters.length == 0 ? (
+                <div className='spinnerContainer'>
+                    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+                </div>
+            ) : ( 
+                <CharacterList characters={characters} />
+
+            )}
         </div>
     )
 
