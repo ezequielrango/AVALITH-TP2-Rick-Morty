@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return(
         <div className="buttonContainer">
-            <Link to='/formulario'>
+            <Link to='/form'>
                 <button className="button"> Form</button>
             </Link>
             <Link to='/users'>

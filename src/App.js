@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import CharactersListContainer from './components/CharactersListContainer.js'
 import { Routes, Route} from 'react-router-dom';
-import UserList from './components/UserList';
 import UserListContainer from './components/UserListContainer'
 import Form from './components/Form';
 
@@ -10,6 +9,11 @@ function App() {
     <div className="App">
         <Navbar />
       <Routes>
+        
+          <Route
+            path="/"
+            element={<CharactersListContainer />}
+          />
           <Route
             path="/characters"
             element={<CharactersListContainer />}
