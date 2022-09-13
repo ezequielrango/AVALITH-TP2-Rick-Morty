@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ##Download project: 
 
-### `git clone: url `
+### ` git clone: https://github.com/ezequielrango/AVALITH-TP2-Rick-Morty.git `
 
 ## Available Scripts
 
