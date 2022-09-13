@@ -7,7 +7,8 @@ const Form = () => {
     console.log('Soy el estado de email :', email);
     
     return(
-        <div className="form">
+        <div className="containerDelContainer">
+        <div className="formContainer">
         <form 
         onSubmit={(e) => {
             e.preventDefault()
@@ -37,6 +38,8 @@ const Form = () => {
 
             </div>
         </form>
+        </div>
+
         </div>
     )
 }

@@ -2,7 +2,7 @@
 const User = ({id,name,username,email,phone}) => {
     return (
       
-          <tbody>
+          <tbody className="tr">
             <tr>
               <td>{id}</td>
               <td>{name}</td>

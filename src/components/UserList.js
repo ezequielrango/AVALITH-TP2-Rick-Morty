@@ -1,14 +1,13 @@
 import User from "./User";
-import Table from 'react-bootstrap/Table';
 
 
 const UserList = ({ users }) => {
     console.log('user:', users);
     return (
         <div className='userContainer'>
-            <table class="table table-striped">
+            <table className="table table-striped">
                 <thead>
-                    <tr>
+                    <tr className="th-title">
                         <th scope="col">#</th>
                         <th scope="col">Nombre</th>
                         <th scope="col">Nombre de Usuario</th>
