@@ -1,5 +1,4 @@
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+
 import { Link } from 'react-router-dom'
 
 const Character = ({ name, image, status, specie, id }) => {
@@ -12,7 +11,9 @@ const Character = ({ name, image, status, specie, id }) => {
                     <h5 className="cardText"><span> Especie:</span> {specie}</h5>
                     <h5 className="cardText"><span> Estado:</span>{status}</h5>
                     <Link to={`/characters/${id}`}>
-                        <button className='buttonDetail'>Detail</button>
+                        <div >
+                            <button className='buttonDetail'>Detail</button>
+                    | </div>
                     </Link>
                 </div>
 
