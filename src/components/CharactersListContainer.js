@@ -9,7 +9,7 @@ const CharactersListContainer = () => {
     console.log(`id en useParams`, id);
 
     const getCharacters = async () => {
-        let url = 'https://rickandmortyapi.com/api/character';
+        let url = `https://rickandmortyapi.com/api/character/`;
         const response = await fetch(url);
         const data = await response.json();
         console.log('data:', data.results);
