@@ -17,6 +17,7 @@ body{
   padding: 0;
 }
 .buttonContainer{
+  margin: 3%;
     width: 100%;
     height: 100px;
     display: flex;
@@ -37,7 +38,7 @@ body{
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px rgb(0, 247, 70);
+    box-shadow: 2px 9px rgb(0, 247, 70);
   }
   
 .card-title{
@@ -109,7 +110,7 @@ body{
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px rgb(0, 247, 70);
+    box-shadow: 2px 9px rgb(0, 247, 70);
     width: 100%
   }
 
@@ -178,7 +179,7 @@ justify-content: center;
 height: 535px;
 }
 .formContainer{
-  width: 30%;
+  width: 75%;
 }
 .form-group{
     width: 100%; 
@@ -190,7 +191,16 @@ height: 535px;
 .input{
     display: inline;
     width: 60%;
-    margin: 5%;
+    height: 25px;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.textarea{
+  display: inline;
+    width: 60%;
+    height: 30%;
+    margin: 1%;
     border-radius: 5px;
 }
 .btn-submit{
@@ -204,7 +214,7 @@ height: 535px;
     background-color: #4CAF50;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 3px rgb(0, 247, 70);
+    box-shadow: 1px 3px rgb(0, 247, 70);
     margin: 5%;
 }
 .btnContainer{
@@ -224,6 +234,7 @@ height: 535px;
 
 
 .formTitle{
+  margin: 1%;
     color: #fff;
 }
 
