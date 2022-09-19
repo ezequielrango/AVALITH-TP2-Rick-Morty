@@ -37,7 +37,7 @@ body{
     color: #fff;
     background-color: #4CAF50;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 2px 9px rgb(0, 247, 70);
   }
   
@@ -48,7 +48,10 @@ body{
   .cardText{
     color: #fff;
   }
-  .button:hover {background-color: #3e8e41}
+  .button:hover {
+    background-color: #3e8e41;
+  border: solid 3px rgb(0, 247, 70);
+  box-shadow: 5px 5px rgb(203, 13, 203);}
   
   .button:active {
     background-color: #3e8e41;
@@ -109,7 +112,7 @@ body{
     color: #fff;
     background-color: #4CAF50;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 2px 9px rgb(0, 247, 70);
     width: 100%
   }
@@ -134,6 +137,11 @@ body{
 
 .tr{
 color: #fff;
+}
+
+.tr td{
+  text-align: center;
+  padding: 5px;
 }
 
 .th-title{
@@ -196,6 +204,11 @@ height: 535px;
     border-radius: 5px;
 }
 
+.input:hover{
+  border: solid 3px rgb(0, 247, 70);
+  box-shadow: 5px 5px rgb(203, 13, 203);
+}
+
 .textarea{
   display: inline;
     width: 60%;
@@ -203,6 +216,12 @@ height: 535px;
     margin: 1%;
     border-radius: 5px;
 }
+
+.textarea:hover{
+  border: solid 3px rgb(0, 247, 70);
+  box-shadow: 5px 5px rgb(203, 13, 203);
+}
+
 .btn-submit{
     width: 35%;
     display: inline-block;
@@ -213,8 +232,9 @@ height: 535px;
     color: #fff;
     background-color: #4CAF50;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 1px 3px rgb(0, 247, 70);
+    padding: 1%;
     margin: 5%;
 }
 .btnContainer{
@@ -224,7 +244,11 @@ height: 535px;
 }
 
 
-.btn-submit:hover {background-color: #3e8e41}
+.btn-submit:hover {
+  background-color: #3e8e41;
+  border: solid 3px rgb(0, 247, 70);
+  box-shadow: 5px 5px rgb(203, 13, 203);
+}
   
 .btn-submit:active {
   background-color: #eee024;

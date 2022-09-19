@@ -6,8 +6,8 @@ const User = ({id,name,username,email,phone}) => {
             <tr>
               <td>{id}</td>
               <td>{name}</td>
-              <td>{email}</td>
               <td>{username}</td>
+              <td>{email}</td>
               <td>{phone}</td>
             </tr>
           </tbody>
