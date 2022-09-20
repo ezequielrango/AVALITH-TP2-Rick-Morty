@@ -13,7 +13,7 @@ const Character = ({ name, image, status, specie, id }) => {
                     <Link to={`/characters/${id}`}>
                         <div >
                             <button className='buttonDetail'>Detail</button>
-                    | </div>
+                        </div>
                     </Link>
                 </div>
 
